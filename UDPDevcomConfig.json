@@ -1,0 +1,12 @@
+
+    {
+        "multicastGroup":"230.0.0.1",
+        "multicastSendPort":"5454",
+        "multicastReceiverPort":"5454",
+        "healthCheckDelay":"5000",
+        "wrapperAddress":"172.195.122.18",
+        "messagingSndPort":"8000",
+        "messagingRcvrPort":"8084"
+    }
+    
+        

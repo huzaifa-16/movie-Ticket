@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src=
+    "https://code.jquery.com/jquery-3.6.0.min.js">
+        </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="loginn.css" rel="stylesheet">
+    <title>LogIn</title>
+</head>
+<body>
+    <section>
+        <form  action="index.html" >
+        <!-- <form>     -->
+            <h1>Login</h1>
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" id="UserName" required>
+                <label for="">UserName</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" id="passWord" required>
+                <label for="">passWord</label>
+            </div>
+            <div class="forget">
+                <label for=""><input type="checkbox">Remember Me</label>
+              <a href="#"> Forget Password</a>
+            </div>
+            <!-- <a href="index.html"></a> -->
+            <button id="logged">Log in</button>
+            
+            <div class="register">
+                <p>Don't have a account <a href="#">Register</a></p>
+            </div>
+        </form>
+    </section>
+    <script src="login.js"></script>
+</body>
+</html>

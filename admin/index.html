@@ -1,0 +1,179 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible"content="IE=edge"> 
+	<meta name="viewport"content="width=device-width,initial-scale=1.0"> 
+	<title>ADMIN</title> 
+	<link rel="stylesheet"href="styles.css"> 
+	<!-- <link rel="stylesheet"href="responsive.css">  -->
+</head> 
+
+<body> 
+	
+	<!-- for header part -->
+	<header> 
+
+		<div class="logosec"> 
+			<div class="logo">Tick8</div> 
+			
+		</div> 
+
+		<div class="searchbar"> 
+			<input type="text" placeholder="Search"> 
+			<div class="searchbtn"> 
+			<img src="search.png"class="icn srchicn" alt="search-icon"> 
+			</div> 
+		</div> 
+
+		<div class="message"> 
+			<div class="circle"></div> 
+			<img src= "notify.png" class="icn" alt=""> 
+			<div class="dp"> 
+            <a href="login.html"><img src= "profile.png" class="dpicn" alt="dp"> </a>    
+			
+			</div> 
+		</div> 
+
+	</header> 
+
+	<div class="main-container"> 
+		<div class="navcontainer"> 
+			<nav class="nav"> 
+				<div class="nav-upper-options"> 
+					<div class="nav-option option1"> 
+						<img src= "dashboard.png" class="nav-img" alt="dashboard"> 
+						<h3>DASHBOARD</h3> 
+					</div> 
+
+					<div class="option2 nav-option"> 
+						<img src= "movie.png" class="nav-img" alt="articles"> 
+						<a href="addMovie/addmovie.html"><h3> MOVIES</h3></a> 
+					</div> 
+
+					<div class="nav-option option3"> 
+						<img src= "report.png"class="nav-img"alt="report"> 
+						<h3> REPORT</h3> 
+					</div> 
+
+					<div class="nav-option option4"> 
+						<img src= "cinema.png"class="nav-img"alt="institution"> 
+						<h3> CINEMAS</h3> 
+					</div> 
+
+					<div class="nav-option option5"> 
+						<img src= "profilee.png"class="nav-img"alt="blog"> 
+						<h3> PROFILES</h3> 
+					</div> 
+
+					<div class="nav-option option6"> 
+						<img src= "settings.png"class="nav-img"alt="settings"> 
+						<h3> SETTINGS</h3> 
+					</div> 
+
+					<div class="nav-option logout"> 
+						<img src= "logout.png"class="nav-img"alt="logout"> 
+						<h3 ><a href="login.html">LOGOUT</a></h3> 
+					</div> 
+
+				</div> 
+			</nav> 
+		</div> 
+		<div class="main"> 
+
+			<!-- <div class="searchbar2"> 
+				<input type="text"name=""id=""placeholder="Search"> 
+				<div class="searchbtn"> 
+				<img src= "https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"class="icn srchicn"alt="search-button"> 
+				</div> 
+			</div>  -->
+
+
+			<div class="report-container"> 
+				<div class="report-header"> 
+					<h1 class="recent-Articles">BOOKINGS</h1> 
+					<button class="view">View All</button> 
+				</div> 
+
+				<div class="report-body"> 
+					<div class="report-topic-heading"> 
+						<h3 class="t-op">NAME</h3> 
+						<h3 class="t-op">MOVIE/DATE</h3> 
+						<h3 class="t-op">SEATS</h3> 
+						<h3 class="t-op">STATUS</h3> 
+					</div> 
+
+					<div class="items"> 
+						<div class="item1"> 
+							<h3 class="t-op-nextlvl">HUZAIFA</h3> 
+							<h3 class="t-op-nextlvl">TIGER 3/1/2/2024</h3> 
+							<h3 class="t-op-nextlvl">1,2,3</h3> 
+							<h3 class="t-op-nextlvl label-tag">BOOKED</h3> 
+						</div> 
+
+						<div class="item1"> 
+							<h3 class="t-op-nextlvl">DEEPAK</h3> 
+							<h3 class="t-op-nextlvl">JAWAAN 3/1/2/2024</h3> 
+							<h3 class="t-op-nextlvl">5,6,7</h3> 
+							<h3 class="t-op-nextlvl label-tag">BOOKED</h3> 
+						</div> 
+
+						<div class="item1"> 
+							<h3 class="t-op-nextlvl">PAVAN</h3> 
+							<h3 class="t-op-nextlvl">FUKREY 3 3/1/2/2024</h3> 
+							<h3 class="t-op-nextlvl">3,4,5</h3> 
+							<h3 class="t-op-nextlvl label-tag">BOOKED</h3> 
+						</div> 
+
+						<div class="item1"> 
+							<h3 class="t-op-nextlvl">SAMA</h3> 
+							<h3 class="t-op-nextlvl">TIGER 3 3/1/2/2024</h3> 
+							<h3 class="t-op-nextlvl">4,5,6</h3> 
+							<h3 class="t-op-nextlvl label-tag">BOOKED</h3> 
+						</div> 
+
+						<div class="item1"> 
+							<h3 class="t-op-nextlvl">HUMERA</h3> 
+							<h3 class="t-op-nextlvl">JAWAAN 3/1/2/2024</h3> 
+							<h3 class="t-op-nextlvl">8,9</h3> 
+							<h3 class="t-op-nextlvl label-tag">BOOKED</h3> 
+						</div> 
+
+						<div class="item1"> 
+							<h3 class="t-op-nextlvl">SHIVA </h3> 
+							<h3 class="t-op-nextlvl">ANIMAL 3/4/2024</h3> 
+							<h3 class="t-op-nextlvl">7,8</h3> 
+							<h3 class="t-op-nextlvl label-tag">Published</h3> 
+						</div> 
+
+						<div class="item1"> 
+							<h3 class="t-op-nextlvl">SAMAAN</h3> 
+							<h3 class="t-op-nextlvl">KUNG FU 9/1/2024</h3> 
+							<h3 class="t-op-nextlvl">1,2</h3> 
+							<h3 class="t-op-nextlvl label-tag">BOOKED</h3> 
+						</div> 
+
+						<div class="item1"> 
+							<h3 class="t-op-nextlvl">PRATAP</h3> 
+							<h3 class="t-op-nextlvl">KUNG FU 9/1/2024</h3> 
+							<h3 class="t-op-nextlvl">4,5</h3> 
+							<h3 class="t-op-nextlvl label-tag">BOOKED</h3> 
+						</div> 
+
+						<div class="item1"> 
+							<h3 class="t-op-nextlvl">RACHITA</h3> 
+							<h3 class="t-op-nextlvl">FUKREY 3 18/1/2024</h3> 
+							<h3 class="t-op-nextlvl">8,9</h3> 
+							<h3 class="t-op-nextlvl label-tag">BOOKED</h3> 
+						</div> 
+
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</div> 
+
+	<script src="script.js"></script> 
+</body> 
+</html>
